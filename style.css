@@ -18,7 +18,7 @@ button:hover{
 }
 .card{
     width: 350px;
-    height: 500px;
+    height: auto;
     margin: 20px;
     background: linear-gradient(0deg, rgb(235, 225, 135) 0%, rgb(152, 203, 236) 100%);
     display: flex;
@@ -37,6 +37,7 @@ p{
 }
 .cityDisplay, .tempDisplay{
     font-size: 2.5rem;
+    font-weight: bold;
 }
 .erorrMessage{
     font-size: 1rem;
