@@ -1,0 +1,44 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form input, form button{
+    font-size: 2.5rem;
+}
+button{
+    background-color: rgba(9, 161, 9, 0.863);
+    color: white;
+}
+button:hover{
+    background-color: rgba(9, 161, 9, 0.568);
+}
+.card{
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+    background: linear-gradient(0deg, rgb(235, 225, 135) 0%, rgb(152, 203, 236) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+h1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 5;
+}
+.cityDisplay, .tempDisplay{
+    font-size: 2.5rem;
+}
+.erorrMessage{
+    font-size: 1rem;
+    color: red;
+}
