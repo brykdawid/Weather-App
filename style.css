@@ -43,3 +43,13 @@ p{
     font-size: 1rem;
     color: red;
 }
+.humidityDisplay{
+    font-style: italic;
+}
+.watherIdDisplay{
+    font-style: italic;
+    margin-bottom: -20px;
+}
+.emojiDisplay{
+    font-size: 7rem;
+}

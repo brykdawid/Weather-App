@@ -19,7 +19,7 @@ weatherForm.addEventListener("submit", async event => {
         }
         catch(error){
             console.log(error)
-            errorDisplay(error)
+            displayError(error)
         }
     }
     else{
@@ -69,18 +69,20 @@ function displayWeatherInfo(data){
 
     //Display Humidity
     const humidityDisplay = document.createElement("p");
+    humidityDisplay.classList.add("humidityDisplay")
     humidityDisplay.textContent = humidity;
     card.append(`Humidity: ${humidity}%`);
 
     //Display Weather
     const weatherIdDisplay = document.createElement("p");
+    weatherIdDisplay.classList.add("watherIdDisplay")
     weatherIdDisplay.textContent = description;
     card.append(weatherIdDisplay);
 
     //Display Emoji
     const emojiDisplay = document.createElement("p");
+    emojiDisplay.classList.add("emojiDisplay")
     emojiDisplay.textContent = getWeatherEmoji(id);
-    emojiDisplay.style.fontSize = "3.5rem"
     card.append(emojiDisplay)
 
 
